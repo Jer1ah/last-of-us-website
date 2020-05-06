@@ -1,0 +1,46 @@
+.navigation {
+    height: 8.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: all .3s;
+}
+
+.navigation__icon {
+    margin-left: 10rem;
+    height: 5.5rem;
+    opacity: 0;
+}
+
+.navigation__list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35rem;
+    margin-right: 10rem;
+}
+
+.navigation__listItem {}
+
+.navigation__listItem a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #c7c7c7;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bolder;
+    letter-spacing: .1rem;
+}
+
+.navigation__listItem:last-child a {
+    color: #E7C50B;
+}
+
+.navigation__listItem a:hover {
+    color: #E7C50B;
+}

@@ -1,25 +1,21 @@
 import React from 'react';
+import styles from './Header.module.css';
+
+import logo from '../../img/header-image.png';
+import Navigation from '../Navigation/Navigation';
 
 const Header = () => {
     return (
-        <header className="header">
-            <nav className="navigation">
-                <img src="#" alt="Last of Us 2 Icon"/>
-                <ul className="navigation__list">
-                    <li className="navigation__listItem">
-                        <a href="#">ABOUT</a>
-                    </li>
-                    <li className="navigation__listItem">
-                        <a href="#">MEDIA</a>
-                    </li>
-                    <li className="navigation__listItem">
-                        <a href="#">NEWS</a>
-                    </li>
-                    <li className="navigation__listItem">
-                        <a href="#">PRE ORDER</a>
-                    </li>
-                </ul>
-            </nav>
+        <header className={styles.header}>
+            <Navigation />
+            <div className={styles.header__heading}>
+                <img src={logo} alt="Last of Us 2 Logo"/>
+                <h3>AVAILABLE 06.19.2020</h3>
+                <div className={styles.buttonsContainer}>
+                    <a href="#" className={styles.preOrderButton}>PRE ORDER</a>
+                    <a href="#" className={styles.trailerButton}>WATCH TRAILER</a>
+                </div>
+            </div>
         </header>
     );
 };

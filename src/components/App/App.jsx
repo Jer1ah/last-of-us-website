@@ -4,7 +4,7 @@ import Header from '../Header/Header';
 
 const App = () => {
     return (
-        <div className="app">
+        <div>
             <Header />
         </div>
     );

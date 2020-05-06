@@ -1,0 +1,63 @@
+.header {
+    height: 100vh;
+    background: #222;
+    padding: .1rem;
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+                url('../../img/last-of-us-wallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.header__heading {
+    margin: 8rem 0 0 11rem;
+}
+
+.header img {}
+
+.header h3 {
+    font-family: 'Fjalla One', sans-serif;
+    color: #fff;
+    font-size: 3.3rem;
+    letter-spacing: .2rem;
+    margin: 1.5rem 0 0;
+}
+
+.buttonsContainer {
+    width: 31.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 0 0;
+}
+
+.preOrderButton {
+    text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.7rem;
+    font-weight: bolder;
+    letter-spacing: .1rem;
+    background-color: #E7C50B;
+    color: inherit;
+    padding: 1.3rem 2.5rem;
+    transition: all .15s;
+}
+
+.preOrderButton:hover {
+    color: white;
+}
+
+.trailerButton {
+    text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.7rem;
+    color: #fff;
+    font-weight: bolder;
+    letter-spacing: .1rem;
+    padding: 1rem 2.1rem;
+    border: .3rem solid #E7C50B;
+    transition: all .15s;
+}
+
+.trailerButton:hover {
+    background-color: #E7C50B;
+}
