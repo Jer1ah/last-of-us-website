@@ -1,14 +1,53 @@
 import React from 'react';
 import styles from './Shop.module.css';
 
-const Shop = () => {
-    return (
-        <div className={styles.shop}>
-            <div className={styles.container}>
-                <h1>CHOOSE YOUR EDITION</h1>
+class Shop extends React.Component {
+    constructor(props) {
+        super(props);
+        this.navList = React.createRef();
+    }
+
+    onNavClick = (event) => {
+        event.preventDefault();
+        if(event.target.tagName === "A") {
+            for(let i = 0; i < 3; i++) {
+                this.navList.current.children[i].children[0].style = "";
+            }
+            event.target.style.borderBottom = ".4rem solid #E7C50B";
+            event.target.style.paddingBottom = ".33rem";
+            event.target.style.color = "#fff";
+        }
+    };
+
+    render() {
+        const activeStyles = {
+            borderBottom: ".4rem solid #E7C50B",
+            paddingBottom: ".33rem",
+            color: "#fff"
+        };
+
+        return (
+            <div className={styles.shop}>
+                <div className={styles.container}>
+                    <h1>CHOOSE YOUR EDITION</h1>
+                    <ul className={styles.shop__nav}
+                        ref={this.navList} 
+                        onClick={event => this.onNavClick(event)}
+                    >
+                        <li className={styles.shop__navItem}>
+                            <a href="#" style={activeStyles}>COLLECTOR'S EDITION</a>
+                        </li>
+                        <li className={styles.shop__navItem}>
+                            <a href="#">SPECIAL EDITION</a>
+                        </li>
+                        <li className={styles.shop__navItem}>
+                            <a href="#">STANDARD EDITION</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    );
+        );
+    }
 };
 
 export default Shop;

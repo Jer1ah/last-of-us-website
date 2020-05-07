@@ -20,3 +20,24 @@
     padding-bottom: .33rem;
     display: inline-block;
 }
+
+.shop__nav {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 47rem;
+    padding: 0;
+    list-style: none;
+}
+
+.shop__navItem a {
+    text-decoration: none;
+    color: #a3a3a3;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.8rem;
+    transition: all .15s;
+}
+
+.shop__navItem:hover a {
+    color: #fff;
+}
