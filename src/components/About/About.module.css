@@ -1,0 +1,33 @@
+.about {
+    height: 70rem;
+    padding: .1rem;
+    background: url('../../img/ellie-image.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-start;
+}
+
+.about__main {
+    margin: 15rem 0 0 10rem;
+    width: 55rem;
+}
+
+.about h1 {
+    color: #fff;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 3.7rem;
+    letter-spacing: .1rem;
+    border-bottom: .4rem solid #E7C50B;
+    padding-bottom: .33rem;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.about p {
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 1.6rem;
+    line-height: 2.7rem;
+}
