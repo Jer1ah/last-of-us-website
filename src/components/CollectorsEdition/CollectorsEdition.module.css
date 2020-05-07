@@ -1,0 +1,83 @@
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.image {
+    flex: 2;
+    margin: 9rem 5rem 0 0;
+}
+
+.image img {
+    width: 100%;
+}
+
+.info {
+    flex: 1;
+}
+
+.info h3 {
+    color: #fff;
+    font-size: 2.5rem;
+    letter-spacing: .2rem;
+    font-family: 'Fjalla One', sans-serif;
+    margin-bottom: 0;
+}
+
+.preOrderButton {
+    text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.7rem;
+    font-weight: bolder;
+    letter-spacing: .1rem;
+    background-color: #E7C50B;
+    color: inherit;
+    padding: 1.3rem 2.5rem;
+    transition: all .15s;
+    display: inline-block;
+    margin: 1.5rem 0 2rem 0;
+}
+
+.preOrderButton:hover {
+    color: #fff;
+}
+
+.info p {
+    color: #fff;
+    opacity: .85;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    line-height: 2.5rem;
+}
+
+.info__list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.info__listItem {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+}
+
+.info__listItem::before {
+    content: "* ";
+    color: #E7C50B;
+    font-size: 2rem;
+    margin: .5rem 1rem 0 0;
+}
+
+.info__listItem p {
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+.info span {
+    color: #fff;
+    opacity: .85;
+    font-size: 1.5rem;
+    display: inline-block;
+    margin-top: .5rem;
+}
