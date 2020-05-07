@@ -1,0 +1,22 @@
+.shop {
+    height: 80rem;
+    padding: .1rem;
+    background: url('../../img/woods-bg.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 133rem;
+    margin: 2.2rem auto 0;
+}
+
+.shop h1 {
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 3.5rem;
+    letter-spacing: .1rem;
+    border-bottom: .4rem solid #E7C50B;
+    padding-bottom: .33rem;
+    display: inline-block;
+}
