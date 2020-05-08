@@ -1,0 +1,53 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+}
+
+.info h1 {
+    color: #fff;
+    margin: 8.8rem auto 5rem;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 3.5rem;
+    letter-spacing: .1rem;
+    border-bottom: .4rem solid #E7C50B;
+    padding-bottom: .33rem;
+    display: inline-block;
+}
+
+.info__list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0;
+    list-style: none;
+    width: 135rem;
+    max-width: 90%;
+    margin-bottom: 5rem;
+}
+
+.info__listItem {
+    width: 31.5%;
+}
+
+.info__listItem img {
+    width: 100%;
+    height: 25rem;
+}
+
+.info__listItem h3 {
+    color: #fff;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 2.7rem;
+    letter-spacing: .1rem;
+    margin: 2rem 0 1rem;
+}
+
+.info__listItem p {
+    color: #fff;
+    opacity: .85;
+    font-family: sans-serif;
+    line-height: 2.6rem;
+    font-size: 1.5rem;
+}
