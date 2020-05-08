@@ -3,6 +3,7 @@ import styles from './Shop.module.css';
 
 import CollectorsEdition from '../CollectorsEdition/CollectorsEdition';
 import SpecialEdition from '../SpecialEdition/SpecialEdition';
+import StandardEdition from '../StandardEdition/StandardEdition';
 
 class Shop extends React.Component {
     constructor(props) {
@@ -47,7 +48,8 @@ class Shop extends React.Component {
             case "special":
                 return <SpecialEdition />
                 break;
-            default:
+            case "standard":
+                return <StandardEdition />
                 break;
         }
     }
