@@ -1,11 +1,11 @@
 .screenshots {
-    background-color: #333;
+    background-color: #222;
     padding: .1rem;
 }
 
 .container {
     width: 135rem;
-    margin: 13rem auto 5rem;
+    margin: 13rem auto 3rem;
 }
 
 .container h1 {

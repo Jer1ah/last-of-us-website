@@ -6,6 +6,7 @@ import Shop from '../Shop/Shop';
 import Info from '../Info/Info';
 import Screenshots from '../Screenshots/Screenshots';
 import Video from '../Video/Video';
+import News from '../News/News';
 
 const App = () => {
     return (
@@ -16,6 +17,7 @@ const App = () => {
             <Info />
             <Screenshots />
             <Video />
+            <News />
         </div>
     );
 };
