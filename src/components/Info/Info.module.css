@@ -51,3 +51,26 @@
     line-height: 2.6rem;
     font-size: 1.5rem;
 }
+
+
+/*-- media queries --*/
+@media(max-width: 1000px) {
+    .info h1 {
+        font-size: 2.7rem;
+    }
+
+    .info__list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info__listItem {
+        width: 55rem;
+        max-width: 100%;
+        margin-bottom: 5rem;
+    }
+
+    .info__listItem img {
+        height: auto;
+    }
+}

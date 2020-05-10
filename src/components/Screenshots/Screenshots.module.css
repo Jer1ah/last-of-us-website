@@ -5,6 +5,7 @@
 
 .container {
     width: 135rem;
+    max-width: 90%;
     margin: 13rem auto 3rem;
 }
 
@@ -30,6 +31,7 @@
 
 .mainImage {
     flex: 2;
+    height: auto;
 }
 
 .asideImages {
@@ -40,7 +42,7 @@
 }
 
 .asideImage {
-    height: 28rem;
+    height: auto;
 }
 
 .images__bottom {
@@ -64,4 +66,19 @@
 .mainImage img:hover, .asideImage img:hover {
     cursor: pointer;
     transform: scale(1.1);
+}
+
+/*-- media queries --*/
+@media(max-width: 875px) {
+    .images__top, .images__bottom {
+        flex-direction: column;
+    }
+
+    .mainImage, .asideImage {
+        margin-bottom: .77rem;
+    }
+
+    .container h1 {
+        margin-bottom: 3rem;
+    }
 }

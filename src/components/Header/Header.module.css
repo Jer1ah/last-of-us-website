@@ -61,3 +61,11 @@
 .trailerButton:hover {
     background-color: #E7C50B;
 }
+
+
+/*-- media queries --*/
+@media(max-width: 925px) {
+    .header__heading {
+        margin-left: 5rem;
+    }
+}

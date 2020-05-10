@@ -11,6 +11,7 @@
 .about__main {
     margin: 15rem 0 0 10rem;
     width: 55rem;
+    max-width: 85%;
 }
 
 .about h1 {
@@ -30,4 +31,12 @@
     font-weight: lighter;
     font-size: 1.6rem;
     line-height: 2.7rem;
+}
+
+
+/*-- media queries --*/
+@media(max-width: 825px) {
+    .about__main {
+        margin-left: 5rem;
+    }
 }

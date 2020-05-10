@@ -1,5 +1,5 @@
 .shop {
-    height: 80rem;
+    height: auto;
     padding: .1rem;
     background: url('../../img/woods-bg.png');
     background-size: cover;
@@ -7,7 +7,8 @@
 }
 
 .container {
-    width: 133rem;
+    width: 135rem;
+    max-width: 90%;
     margin: 2.2rem auto 0;
 }
 
@@ -40,4 +41,22 @@
 
 .shop__navItem:hover a {
     color: #fff;
+}
+
+
+/*-- media queries --*/
+@media(max-width: 975px) {
+    .shop {
+        background: black;
+    }
+}
+
+@media(max-width: 725px) {
+    .shop__nav {
+        flex-direction: column;
+    }
+
+    .shop__navItem {
+        margin-bottom: 2.2rem;
+    }
 }

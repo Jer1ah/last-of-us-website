@@ -5,6 +5,7 @@
 
 .container {
     width: 135rem;
+    max-width: 90%;
     margin: 5rem auto 5rem;
 }
 
@@ -59,4 +60,16 @@
     font-size: 1.3rem;
     font-family: sans-serif;
     letter-spacing: .1rem;
+}
+
+@media(max-width: 895px) {
+    .list {
+        flex-direction: column;
+    }
+
+    .listItem {
+        margin-bottom: 4rem;
+        width: 50rem;
+        max-width: 90%;
+    }
 }

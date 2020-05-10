@@ -80,4 +80,17 @@
     font-size: 1.5rem;
     display: inline-block;
     margin-top: .5rem;
+    margin-bottom: 3rem;
+}
+
+
+/*-- media queries --*/
+@media(max-width: 975px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .image {
+        margin: 5rem 0 2rem 0;
+    }
 }
