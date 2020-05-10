@@ -1,0 +1,41 @@
+.module {
+    position: fixed;
+    z-index: 200;
+    top: 10rem;
+    left: 50%;
+    width: 90rem;
+    margin-left: -45rem;
+    background-color: #fff;
+    border-radius: .3rem;
+    border: .1rem solid black;
+}
+
+.header {
+    display: flex;
+    border-bottom: 4rem solid black;
+    height: 11rem;
+    align-items: center;
+}
+
+.header h1 {
+    color: black;
+    border: none;
+    font-size: 2.7rem;
+    margin-left: 3.3rem;
+}
+
+.closeIcon {
+    width: 2rem;
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+}
+
+.closeIcon:hover {
+    cursor: pointer;
+}
+
+.footer {
+    height: 6rem;
+    background-color: black;
+}
