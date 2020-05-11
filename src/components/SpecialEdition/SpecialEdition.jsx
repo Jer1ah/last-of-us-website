@@ -36,6 +36,11 @@ const SpecialEdition = () => {
             {moduleStatus ? <Module 
                 edition="Special Edition"
                 price="79.99"
+                playstation="https://direct.playstation.com/en-us/games/game/the-last-of-us-part-ii-special-edition-ps4.3004826"
+                walmart="https://www.walmart.com/ip/The-Last-of-Us-Part-II-Special-Edition-Sony-Playstation-4/549218110?irgwc=1&sourceid=imp_WqwRZUVAKxyJWpowUx0Mo3Y3Ukiz%3A80ONTYt3w0&veh=aff&wmlspartner=imp_78091&clickid=WqwRZUVAKxyJWpowUx0Mo3Y3Ukiz%3A80ONTYt3w0&sharedid="
+                gamestop="https://www.gamestop.com/video-games/playstation-4/games/products/the-last-of-us-part-ii-special-edition/11097390.html?utm_source=rakutenls&utm_medium=affiliate&utm_content=www.PriceSpider.com&utm_campaign=10&utm_kxconfid=tebx5rmj3&cid=afl_10000087&affID=77777&sourceID=jo_pTdthTuc-1es2cu8Y0UmKIRo9AlyLmw"
+                target="https://www.target.com/p/the-last-of-us-part-ii-special-edition-playstation-4/-/A-78382924?clkid=f95844d3N6c7b11eaa07442010a246e0f&lnm=81938&afid=NeuIntel%2C%20LLC&ref=tgt_adv_xasd0002"
+                amazon="https://www.amazon.com/dp/B07YBX9F4R?tag=price19296-20&ascsubtag=wtbs_5eb8ab8e7cbe17e862286e5d&m=ATVPDKIKX0DER"
                 toggle={toggleModule}
                 /> : null}
         </div>

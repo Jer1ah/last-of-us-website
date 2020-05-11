@@ -62,7 +62,7 @@ class Shop extends React.Component {
         };
 
         return (
-            <div className={styles.shop}>
+            <div className={styles.shop} id="shop">
                 <div className={styles.container}>
                     <h1>CHOOSE YOUR EDITION</h1>
                     <ul className={styles.shop__nav}

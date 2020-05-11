@@ -12,8 +12,8 @@ const Header = () => {
                 <img src={logo} alt="Last of Us 2 Logo"/>
                 <h3>AVAILABLE 06.19.2020</h3>
                 <div className={styles.buttonsContainer}>
-                    <a href="#" className={styles.preOrderButton}>PRE ORDER</a>
-                    <a href="#" className={styles.trailerButton}>WATCH TRAILER</a>
+                    <a href="#shop" className={styles.preOrderButton}>PRE ORDER</a>
+                    <a href="#trailer" className={styles.trailerButton}>WATCH TRAILER</a>
                 </div>
             </div>
         </header>

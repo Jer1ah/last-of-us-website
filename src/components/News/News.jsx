@@ -10,7 +10,7 @@ const News = () => {
             <div className={styles.container}>
                 <h3>STAY UP TO DATE</h3>
                 <h1>LATEST NEWS</h1>
-                <ul className={styles.list}>
+                <ul className={styles.list} id="news">
                     <li className={styles.listItem}>    
                         <img src={image1} alt="Last of Us 2 Image"/>
                         <a href="https://www.naughtydog.com/blog/the_last_of_us_part_ii_ellie_edition_restock_new_key_art_and_more" target="_blank">THE LAST OF US PART II ELLIE EDITION</a>

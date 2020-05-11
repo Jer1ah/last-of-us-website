@@ -56,16 +56,16 @@ class Navigation extends React.Component {
                 />
                 <ul className={styles.navigation__list} ref={this.navList}>
                     <li className={styles.navigation__listItem}>
-                        <a href="#">ABOUT</a>
+                        <a href="#about">ABOUT</a>
                     </li>
                     <li className={styles.navigation__listItem}>
-                        <a href="#">MEDIA</a>
+                        <a href="#screenshots">MEDIA</a>
                     </li>
                     <li className={styles.navigation__listItem}>
-                        <a href="#">NEWS</a>
+                        <a href="#news">NEWS</a>
                     </li>
                     <li className={styles.navigation__listItem}>
-                        <a href="#">PRE ORDER</a>
+                        <a href="#shop">PRE ORDER</a>
                     </li>
                 </ul>
                 <img src={menuIcon} 

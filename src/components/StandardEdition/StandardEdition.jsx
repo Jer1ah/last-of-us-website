@@ -36,6 +36,11 @@ const StandardEdition = () => {
             {moduleStatus ? <Module 
                 edition="Standard Edition"
                 price="59.99"
+                playstation="https://store.playstation.com/en-us/product/UP9000-CUSA07820_00-THELASTOFUS2STND?emcid=se-pi-239770&state=returning&error=login_required&error_code=4165&error_description=User+is+not+authenticated&no_captcha=false"
+                walmart="https://www.walmart.com/ip/The-Last-of-Us-Part-II-Sony-PlayStation-4-711719519102/839659063"
+                target="https://www.target.com/p/the-last-of-us-part-ii-playstation-4/-/A-78382925"
+                amazon="https://www.amazon.com/Last-Us-Part-II-PlayStation-4/dp/B07DJRFSDF/ref=sr_1_1?crid=3JIJLC7KWEC84&dchild=1&keywords=last+of+us+2&qid=1589161346&sprefix=last+of+us+%2Caps%2C209&sr=8-1"
+                gamestop="https://www.gamestop.com/video-games/playstation-4/games/products/the-last-of-us-part-ii/11097389.html"
                 toggle={toggleModule}
                 /> : null}
         </div>

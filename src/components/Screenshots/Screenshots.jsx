@@ -10,7 +10,7 @@ import image6 from  '../../img/gallery-image6.png';
 
 const Screenshots = () => {
     return (
-        <div className={styles.screenshots}>
+        <div className={styles.screenshots} id="screenshots">
             <div className={styles.container}>
                 <h1>SCREENSHOTS</h1>
                 <div className={styles.images__top}>

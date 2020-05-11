@@ -78,3 +78,24 @@
     height: 6rem;
     background-color: #222;
 }
+
+
+/*-- media queries --*/
+@media(max-width: 965px) {
+    .module {
+        width: 70rem;
+        margin-left: -35rem;
+    }
+}
+
+@media(max-width: 750px) {
+    .module {
+        max-width: 90%;
+        left: 5%;
+        margin: 0;
+    }
+
+    .status {
+        display: none;
+    }
+}
