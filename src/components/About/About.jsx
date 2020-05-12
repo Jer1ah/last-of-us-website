@@ -10,7 +10,7 @@ const About = () => {
                 <p>When a violent event disrupts that peace, Ellie embarks on a relentless journey to carry out justice and find closure. As she hunts those responsible one by one, she is confronted with the devastating physical and emotional repercussions of her actions.</p>
             </div>
         </div>
-    );
+    )
 }
 
 export default About;
